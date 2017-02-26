@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Accessor Functions</title>
+</head>
+<body>
+	<h1>Accessor Functions</h1>
+<script>
+	var names = ["David", "Cynthia", "Raymond", "Clayton", "Jennifer"];
+	var name = readline();
+	var position = names.indexOf(name);
+	if(position >= 0) {
+		console.log("Found "+ name + " at position " + position );
+	} else {
+		console.log(name + " not found in array.");
+	}
+</script>
+</body>
+</html>
