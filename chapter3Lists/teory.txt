@@ -22,3 +22,30 @@ Se puede agregar un elemento al final de lista, o se puede insertar un elemento 
 o tambien se puede agregar un elemento al inicio de una lista. Los elementos son eliminados de la lista usando
 una operacion remover. Tambien se puede limpiar la lista, de todos los elementos que estan contenidos hasta el
 momento.
+
+Los elementos de una lista son desplegados usando la operacion toString(), que despliega todos los elementos
+o con la funcion getElement, que despliega el valor del current elemento.
+
+Las listas tienen propiedads para describir una locacion. Esta el frente de una lista y el final de una lista.
+Se puede mover un elemento al siguiente elemento utlizando la fucnion next(), y puede mover un elemento para atras
+utilizando la operacoin prev(), tambien se puede mover a una posicion especifica utilizando la operacion
+moveTo(n), donde n especifica la posicion donde se movera. La propiedad currPos indica la posicion actual en la lista.
+
+Las lista ADT no especifican una fucion de almacenamiento de una lista, pero para nuestra implementacion usaremos
+un array llamado dataStore.
+
+listSize(property)          Numero de elemento en la lista
+pos(property)               Posicion actual en la lista
+length(property)            Retorna el numero de elementos en la lista
+clear(function)             Elimina todos los elementos de la lista
+toString(function)          Retorna una representacion string de la lista
+getElement(function)        Retorna el elemento en su posicion actual
+insert(function)            Inserta un nuevo elemento despues de un elemento existente
+append(function)            Agregar un nuevo elemento al final de la lista
+remove(function)            Remueve un elemento de la lista
+front(function)             Establece la posicion actual al primer elemento de la lista
+end(function)               Establa la posicion actual al final de la lista.
+prev(function)              Mueve el elemento actual una posicion atras
+next(function)              Mueve el elemento actual a una posicio adelante.
+currPos(function)           Retorna la posocion actual en una lista
+moveTo(function)            Mueve la posicion actual a una posicion que se valla a especificar.
