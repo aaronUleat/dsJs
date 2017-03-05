@@ -1,0 +1,24 @@
+Las listas es una de las herramientas de organizacion mas usada por las personas en su dia a dia,
+
+Tenemos listas de cosas pendientes por hacer, listas de compras, top ten listas, y muchas mas.
+Nuestros programas tambien uzar listas, particularmente si tenemos unos pocos items para guardar
+dentro de una lista. Las listas son muy utiles si no tenemos que hacer busquedas de los items en la
+lista o algun tipo de ordenamiento de la lista. Cuando se tienen que hacer busquedas y ordenamientos
+complejos, las listas no son tan utiles, especialmente con estructuras de datos mas complejas
+
+Vamos a empezar con la deficion de una lista Abstract Date Type(ADT) y despues demostrar como implementar
+una lista (ADT).
+
+En orden para disenar una lista ADT, tenemos que proveer una deficion de una lista, incluyendo sus propiedades,
+del mismo modo las operaciones relizadas sobre y por ellas.
+
+Una lista es una secuencia de data ordenanda. Cada data item guardado en la lista es llamado ELEMENTO.
+En Javascript, el elemento de una lista puede ser de cualquier tipo de data. No hay un numero predeterminado
+de elementos que puedan ser guardados en la lista, el limite es el limite de memoria que tenga el programa.
+
+Una lista sin elementos es una lista vacia. El numero de elementos guardados en una lista es llamdo con LENGTH
+de la lista. Internamente, el numero de elementos en una lista es guardado en una variable llamada listSize.
+Se puede agregar un elemento al final de lista, o se puede insertar un elemento despues de un elemento existente
+o tambien se puede agregar un elemento al inicio de una lista. Los elementos son eliminados de la lista usando
+una operacion remover. Tambien se puede limpiar la lista, de todos los elementos que estan contenidos hasta el
+momento.
