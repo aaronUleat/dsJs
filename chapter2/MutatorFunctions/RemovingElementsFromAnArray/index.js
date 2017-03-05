@@ -6,7 +6,8 @@
 (function () {
 	console.log("Como Eliminar el ultimo elemento de un array con la funcion pop()");
 	var nums = [1,2,3,4,5, 9];
-	nums.pop();
+	var nine = nums.pop();
+	console.log(nine);
 	console.log(nums);
 })();
 

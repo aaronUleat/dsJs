@@ -1,5 +1,5 @@
 // Hay dos funciones de arrays que nos permite crear arrays
-//de un array existente, estas funciones serian concat() y splic();
+//de un array existente, estas funciones serian concat() y splice();
 //La funcion concat() permite conbiar dos arrays o mas en uno;
 // La funcion splice() nos permite crear arrays sobre el contenido de arrays existentes
 
